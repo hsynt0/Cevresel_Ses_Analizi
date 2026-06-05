@@ -17,6 +17,22 @@
 | dog_bark | dog | Hayir |
 | siren | siren | **Evet** |
 
+## Önemli Kurulum Notu: Ön İşlemden Geçmiş Veri Seti (Features)
+
+Yapay zeka modelimizin eğitilmesi için orijinal ESC-50 veri setine veri artırma (Data Augmentation) teknikleri uygulanarak 3480 adetlik bir veri havuzu oluşturulmuş ve bu sesler Log-Mel Spektrogram matrislerine (`.npy`) dönüştürülmüştür. 
+
+GitHub'ın 100MB dosya boyutu sınırı gereği, bu yüksek boyutlu `X_logmel.npy` ve model ağırlık dosyaları repoya doğrudan **yüklenmemiştir**. Projeyi bilgisayarınızda denerken önünüzde iki seçenek bulunmaktadır:
+
+**Seçenek 1: Sıfırdan Üretmek**
+`preprocess_and_train.py` scriptini çalıştırarak ham ses dosyalarından bu matrislerin bilgisayarınızda sıfırdan oluşturulmasını sağlayabilirsiniz.
+
+**Seçenek 2: Hazır Veriyi İndirmek (Önerilen ve Hızlı)**
+Zaman kaybetmeden projeyi ve arayüzü doğrudan test etmek isterseniz, tarafımca önceden işlenmiş ve hazırlanmış veri setini aşağıdaki bağlantıdan tek tıkla indirebilirsiniz:
+
+ **[HearAlert İşlenmiş Veri Seti ve Modelleri İndir (Google Drive)](https://drive.google.com/file/d/1LZ2y1UaUSAFPxHBbr594AwyjlldvlRFB/view?usp=sharing)**
+
+*İndirdiğiniz `.zip` dosyasının içindeki `features` klasörünü, proje dizinindeki `processed/` klasörünün içine atmanız yeterlidir.*
+
 ## Kurulum
 
 ```bash
