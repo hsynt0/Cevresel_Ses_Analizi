@@ -1,0 +1,25 @@
+# Proje tarafindan otomatik uretilen klasorler
+processed/
+logs/
+
+# Python derleme dosyalari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortam (Virtual environment)
+venv/
+env/
+.env
+
+# Ide/Editor ayarlari
+.vscode/
+.idea/
+
+# Mac OS / Windows gizli dosyalar
+.DS_Store
+Thumbs.db
+
+# İsteğe bağlı: modelleri veya çıktıları (grafikler vs) dahil etmek ISTEMIYORSANIZ asagidaki baslardaki '#' isaretini kaldirabilirsiniz:
+# models/
+# outputs/
