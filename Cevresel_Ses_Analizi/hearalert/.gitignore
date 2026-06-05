@@ -20,6 +20,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# İsteğe bağlı: modelleri veya çıktıları (grafikler vs) dahil etmek ISTEMIYORSANIZ asagidaki baslardaki '#' isaretini kaldirabilirsiniz:
+
 # models/
 # outputs/
