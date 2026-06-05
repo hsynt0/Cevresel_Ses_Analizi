@@ -1,7 +1,0 @@
-2026-05-20 04:45:03 | src.features.mfcc_extractor | INFO | MFCC cikarimi tamamlandi - 240 dosya, 0 basarisiz
-2026-05-20 04:57:04 | src.features.mfcc_extractor | INFO | MFCC cikarimi tamamlandi - 4240 dosya, 0 basarisiz
-2026-05-20 04:57:26 | src.features.logmel_extractor | INFO | Log-mel cikarimi tamamlandi - X shape: (4240, 128, 128, 1), 0 basarisiz
-2026-06-05 11:50:18 | src.features.mfcc_extractor | INFO | MFCC cikarimi tamamlandi - 3480 dosya, 0 basarisiz
-2026-06-05 11:50:37 | src.features.logmel_extractor | INFO | Log-mel cikarimi tamamlandi - X shape: (3480, 128, 128, 1), 0 basarisiz
-2026-06-05 12:36:17 | src.features.mfcc_extractor | INFO | MFCC cikarimi tamamlandi - 3480 dosya, 0 basarisiz
-2026-06-05 12:36:38 | src.features.logmel_extractor | INFO | Log-mel cikarimi tamamlandi - X shape: (3480, 128, 128, 1), 0 basarisiz

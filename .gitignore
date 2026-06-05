@@ -1,0 +1,24 @@
+# Proje tarafindan otomatik uretilen klasorler
+logs/
+
+# Büyük Veri, Ses ve Model Dosyaları
+*.npy
+
+
+# Python derleme dosyalari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal ortam (Virtual environment)
+venv/
+env/
+.env
+
+# Ide/Editor ayarlari
+.vscode/
+.idea/
+
+# Mac OS / Windows gizli dosyalar
+.DS_Store
+Thumbs.db
