@@ -1,0 +1,78 @@
+2026-05-20 04:45:06 | src.training.splitter | INFO | Veri bolme tamamlandi:
+2026-05-20 04:45:06 | src.training.splitter | INFO |   Train: 156, Val: 36, Test: 48
+2026-05-20 04:45:06 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(26), np.int64(1): np.int64(26), np.int64(2): np.int64(26), np.int64(3): np.int64(26), np.int64(4): np.int64(26), np.int64(5): np.int64(26)}
+2026-05-20 04:45:06 | src.training.splitter | INFO | Normalizasyon tamamlandi - mean range: [-355.43, 102.44], std range: [2.36, 230.15]
+2026-05-20 04:45:06 | src.training.splitter | INFO | Scaler kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\models\mlp\scaler.joblib
+2026-05-20 04:45:06 | src.training.mlp_model | INFO | MLP modeli olusturuldu - 63814 parametre
+2026-05-20 04:45:06 | src.training.mlp_model | INFO | Model derlendi - LR: 0.001000
+2026-05-20 04:45:06 | src.training.mlp_model | INFO | Callback'ler hazir - EarlyStopping(20), LRReduce(10)
+2026-05-20 04:45:06 | src.training.mlp_model | INFO | MLP egitimi basliyor - 150 epoch, batch=64
+2026-05-20 04:45:15 | src.training.mlp_model | INFO | Egitim tamamlandi - Son val_accuracy: 0.8889
+2026-05-20 04:45:15 | src.training.mlp_model | INFO | Egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\mlp_training_history.png
+2026-05-20 04:57:29 | src.training.splitter | INFO | Veri bolme tamamlandi:
+2026-05-20 04:57:29 | src.training.splitter | INFO |   Train: 2756, Val: 636, Test: 848
+2026-05-20 04:57:29 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(494), np.int64(1): np.int64(494), np.int64(2): np.int64(494), np.int64(3): np.int64(494), np.int64(4): np.int64(390), np.int64(5): np.int64(390)}
+2026-05-20 04:57:29 | src.training.splitter | INFO | Normalizasyon tamamlandi - mean range: [-365.54, 106.85], std range: [2.38, 218.34]
+2026-05-20 04:57:29 | src.training.splitter | INFO | Scaler kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\models\mlp\scaler.joblib
+2026-05-20 04:57:29 | src.training.mlp_model | INFO | MLP modeli olusturuldu - 63814 parametre
+2026-05-20 04:57:29 | src.training.mlp_model | INFO | Model derlendi - LR: 0.001000
+2026-05-20 04:57:29 | src.training.mlp_model | INFO | Callback'ler hazir - EarlyStopping(20), LRReduce(10)
+2026-05-20 04:57:29 | src.training.mlp_model | INFO | MLP egitimi basliyor - 150 epoch, batch=64
+2026-05-20 04:57:43 | src.training.mlp_model | INFO | Egitim tamamlandi - Son val_accuracy: 0.9371
+2026-05-20 04:57:43 | src.training.mlp_model | INFO | Egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\mlp_training_history.png
+2026-05-20 04:57:43 | src.training.splitter | INFO | Veri bolme tamamlandi:
+2026-05-20 04:57:43 | src.training.splitter | INFO |   Train: 2756, Val: 636, Test: 848
+2026-05-20 04:57:43 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(494), np.int64(1): np.int64(494), np.int64(2): np.int64(494), np.int64(3): np.int64(494), np.int64(4): np.int64(390), np.int64(5): np.int64(390)}
+2026-05-20 04:57:43 | src.training.cnn_model | INFO | SB-CNN modeli olusturuldu - 241174 parametre
+2026-05-20 04:57:43 | src.training.cnn_model | INFO | SB-CNN derlendi - SGD LR: 0.010000
+2026-05-20 04:57:43 | src.training.cnn_model | INFO | SB-CNN egitimi basliyor - 50 epoch, batch=100
+2026-05-20 05:00:23 | src.training.cnn_model | INFO | SB-CNN egitimi tamamlandi - Son val_accuracy: 0.9072
+2026-05-20 05:00:23 | src.training.cnn_model | INFO | CNN egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\cnn_training_history.png
+2026-06-05 11:50:42 | src.training.splitter | INFO | Veri bolme tamamlandi:
+2026-06-05 11:50:42 | src.training.splitter | INFO |   Train: 2262, Val: 522, Test: 696
+2026-06-05 11:50:42 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(494), np.int64(1): np.int64(494), np.int64(2): np.int64(494), np.int64(3): np.int64(390), np.int64(4): np.int64(390)}
+2026-06-05 11:50:42 | src.training.splitter | INFO | Normalizasyon tamamlandi - mean range: [-335.85, 102.89], std range: [2.38, 217.85]
+2026-06-05 11:50:42 | src.training.splitter | INFO | Scaler kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\models\mlp\scaler.joblib
+2026-06-05 11:50:42 | src.training.mlp_model | INFO | MLP modeli olusturuldu - 63749 parametre
+2026-06-05 11:50:42 | src.training.mlp_model | INFO | Model derlendi - LR: 0.001000
+2026-06-05 11:50:42 | src.training.mlp_model | INFO | Callback'ler hazir - EarlyStopping(20), LRReduce(10)
+2026-06-05 11:50:42 | src.training.mlp_model | INFO | MLP egitimi basliyor - 150 epoch, batch=64
+2026-06-05 11:50:53 | src.training.mlp_model | INFO | Egitim tamamlandi - Son val_accuracy: 0.9598
+2026-06-05 11:50:53 | src.training.mlp_model | INFO | Egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\mlp_training_history.png
+2026-06-05 11:50:53 | src.training.splitter | INFO | Veri bolme tamamlandi:
+2026-06-05 11:50:53 | src.training.splitter | INFO |   Train: 2262, Val: 522, Test: 696
+2026-06-05 11:50:53 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(494), np.int64(1): np.int64(494), np.int64(2): np.int64(494), np.int64(3): np.int64(390), np.int64(4): np.int64(390)}
+2026-06-05 11:50:54 | src.training.cnn_model | INFO | SB-CNN modeli olusturuldu - 241109 parametre
+2026-06-05 11:50:54 | src.training.cnn_model | INFO | SB-CNN derlendi - SGD LR: 0.010000
+2026-06-05 11:50:54 | src.training.cnn_model | INFO | SB-CNN egitimi basliyor - 50 epoch, batch=100
+2026-06-05 11:51:26 | src.training.splitter | INFO | Veri bolme tamamlandi:
+2026-06-05 11:51:26 | src.training.splitter | INFO |   Train: 2262, Val: 522, Test: 696
+2026-06-05 11:51:26 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(494), np.int64(1): np.int64(494), np.int64(2): np.int64(494), np.int64(3): np.int64(390), np.int64(4): np.int64(390)}
+2026-06-05 11:51:27 | src.training.cnn_model | INFO | SB-CNN modeli olusturuldu - 241109 parametre
+2026-06-05 11:51:27 | src.training.cnn_model | INFO | SB-CNN derlendi - SGD LR: 0.010000
+2026-06-05 11:51:27 | src.training.cnn_model | INFO | SB-CNN egitimi basliyor - 50 epoch, batch=100
+2026-06-05 11:53:39 | src.training.cnn_model | INFO | SB-CNN egitimi tamamlandi - Son val_accuracy: 0.8851
+2026-06-05 11:53:40 | src.training.cnn_model | INFO | CNN egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\cnn_training_history.png
+2026-06-05 12:36:59 | src.training.splitter | INFO | Fold-based veri bolme (Leakage Free) tamamlandi:
+2026-06-05 12:36:59 | src.training.splitter | INFO |   Train (Folds 1-3): 2088
+2026-06-05 12:36:59 | src.training.splitter | INFO |   Val (Fold 4): 696
+2026-06-05 12:36:59 | src.training.splitter | INFO |   Test (Fold 5): 696
+2026-06-05 12:36:59 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(456), np.int64(1): np.int64(456), np.int64(2): np.int64(456), np.int64(3): np.int64(360), np.int64(4): np.int64(360)}
+2026-06-05 12:36:59 | src.training.splitter | INFO | Normalizasyon tamamlandi - mean range: [-343.55, 103.27], std range: [2.29, 222.15]
+2026-06-05 12:36:59 | src.training.splitter | INFO | Scaler kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\models\mlp\scaler.joblib
+2026-06-05 12:36:59 | src.training.mlp_model | INFO | MLP modeli olusturuldu - 63749 parametre
+2026-06-05 12:36:59 | src.training.mlp_model | INFO | Model derlendi - LR: 0.001000
+2026-06-05 12:36:59 | src.training.mlp_model | INFO | Callback'ler hazir - EarlyStopping(20), LRReduce(10)
+2026-06-05 12:36:59 | src.training.mlp_model | INFO | MLP egitimi basliyor - 150 epoch, batch=64
+2026-06-05 12:37:04 | src.training.mlp_model | INFO | Egitim tamamlandi - Son val_accuracy: 0.8707
+2026-06-05 12:37:04 | src.training.mlp_model | INFO | Egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\mlp_training_history.png
+2026-06-05 12:37:10 | src.training.splitter | INFO | Fold-based veri bolme (Leakage Free) tamamlandi:
+2026-06-05 12:37:10 | src.training.splitter | INFO |   Train (Folds 1-3): 2088
+2026-06-05 12:37:10 | src.training.splitter | INFO |   Val (Fold 4): 696
+2026-06-05 12:37:10 | src.training.splitter | INFO |   Test (Fold 5): 696
+2026-06-05 12:37:10 | src.training.splitter | INFO |   Train sinif dagilimi: {np.int64(0): np.int64(456), np.int64(1): np.int64(456), np.int64(2): np.int64(456), np.int64(3): np.int64(360), np.int64(4): np.int64(360)}
+2026-06-05 12:37:10 | src.training.cnn_model | INFO | SB-CNN modeli olusturuldu - 241109 parametre
+2026-06-05 12:37:10 | src.training.cnn_model | INFO | SB-CNN derlendi - SGD LR: 0.010000
+2026-06-05 12:37:10 | src.training.cnn_model | INFO | SB-CNN egitimi basliyor - 50 epoch, batch=100
+2026-06-05 12:39:36 | src.training.cnn_model | INFO | SB-CNN egitimi tamamlandi - Son val_accuracy: 0.7687
+2026-06-05 12:39:36 | src.training.cnn_model | INFO | CNN egitim grafigi kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\cnn_training_history.png

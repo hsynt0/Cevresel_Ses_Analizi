@@ -1,0 +1,61 @@
+2026-05-20 04:45:15 | src.evaluation.evaluator | INFO | Test accuracy: 0.9167
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix.png
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO |   [UYARI] alarm_clock: recall=0.7500
+2026-05-20 04:45:16 | src.evaluation.evaluator | WARNING |   !!! alarm_clock recall < 0.80 - Guvenlik riski!
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO |   [OK] crying_baby: recall=1.0000
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO |   [OK] glass_breaking: recall=1.0000
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO |   [OK] siren: recall=1.0000
+2026-05-20 04:45:16 | src.evaluation.evaluator | INFO | ====================================
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO | Test accuracy: 0.9387
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix_mlp.png
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO |   [OK] alarm_clock: recall=0.9868
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO |   [OK] crying_baby: recall=0.9803
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO |   [OK] glass_breaking: recall=0.9000
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO |   [OK] siren: recall=0.9917
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO | ====================================
+2026-05-20 05:00:24 | src.evaluation.evaluator | INFO | Test accuracy: 0.9021
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix_cnn.png
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO |   [OK] alarm_clock: recall=0.9474
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO |   [OK] crying_baby: recall=0.9868
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO |   [OK] glass_breaking: recall=0.8250
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO |   [OK] siren: recall=0.9583
+2026-05-20 05:00:25 | src.evaluation.evaluator | INFO | ====================================
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO | Test accuracy: 0.9626
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix_mlp.png
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO |   [OK] alarm_clock: recall=0.9474
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO |   [OK] crying_baby: recall=0.9868
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO |   [OK] glass_breaking: recall=0.9417
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO |   [OK] siren: recall=0.9667
+2026-06-05 11:53:54 | src.evaluation.evaluator | INFO | ====================================
+2026-06-05 11:54:06 | src.evaluation.evaluator | INFO | Test accuracy: 0.9526
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix_cnn.png
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO |   [OK] alarm_clock: recall=0.9539
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO |   [OK] crying_baby: recall=0.9868
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO |   [OK] glass_breaking: recall=0.9083
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO |   [OK] siren: recall=0.9917
+2026-06-05 11:54:07 | src.evaluation.evaluator | INFO | ====================================
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO | Test accuracy: 0.7974
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix_mlp.png
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO |   [OK] alarm_clock: recall=0.9868
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO |   [UYARI] crying_baby: recall=0.6250
+2026-06-05 12:39:44 | src.evaluation.evaluator | WARNING |   !!! crying_baby recall < 0.80 - Guvenlik riski!
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO |   [OK] glass_breaking: recall=0.8250
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO |   [UYARI] siren: recall=0.7583
+2026-06-05 12:39:44 | src.evaluation.evaluator | WARNING |   !!! siren recall < 0.80 - Guvenlik riski!
+2026-06-05 12:39:44 | src.evaluation.evaluator | INFO | ====================================
+2026-06-05 12:39:52 | src.evaluation.evaluator | INFO | Test accuracy: 0.7716
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO | Confusion matrix kaydedildi: C:\Users\hsynt\Desktop\YapayZekaDers\Çevresel_Ses_Analizi\hearalert\outputs\plots\confusion_matrix_cnn.png
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO | === GUVENLIK-KRITIK SINIF RAPORU ===
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO |   [OK] alarm_clock: recall=0.9934
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO |   [OK] crying_baby: recall=0.8816
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO |   [UYARI] glass_breaking: recall=0.4000
+2026-06-05 12:39:53 | src.evaluation.evaluator | WARNING |   !!! glass_breaking recall < 0.80 - Guvenlik riski!
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO |   [UYARI] siren: recall=0.7083
+2026-06-05 12:39:53 | src.evaluation.evaluator | WARNING |   !!! siren recall < 0.80 - Guvenlik riski!
+2026-06-05 12:39:53 | src.evaluation.evaluator | INFO | ====================================
